@@ -1,0 +1,12 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package day7.activity;
+import java.util.Scanner;
+
+public class Activity4_Albios {
+    public static void main(String[] args) {
+        
+    }
+}
