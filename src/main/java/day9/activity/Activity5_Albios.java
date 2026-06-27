@@ -67,16 +67,16 @@ public class Activity5_Albios {
         System.out.print("Enter sum common difference: ");
         int commonDifference2 = input.nextInt();
 
-        System.out.print("sum N = : ");
+        System.out.print("sum || product N = : ");
         int num4 = input.nextInt();
         
         int current2 = startNumber2;
         int sum3 = 0;
         long product2 = 1;
 
-        // Print Sum
+        //sum
         System.out.print("Sum: ");
-        current = startNumber;
+        current2 = startNumber2;
 
         for (int i = 1; i <= num4; i++) {
             System.out.print(current2);
@@ -88,10 +88,10 @@ public class Activity5_Albios {
 
             current2 += commonDifference2;
         }
-
         System.out.println(" = " + sum3);
-
-        // Print Product
+        //sum
+        
+        //product
         System.out.print("Product: ");
         current2 = startNumber2;
 
@@ -105,7 +105,7 @@ public class Activity5_Albios {
 
             current2 += commonDifference2;
         }
-
+        //product
         System.out.println(" = " + product2);
         //end prog4
     }
