@@ -27,7 +27,7 @@ public class Activity7_Albios {
 
         System.out.println("\n You entered: ");
         for (int i = 0; i < num.length; i++) {
-            System.out.println("Index" + i + ": " + num[i]);
+            System.out.println("Index " + i + ": " + num[i]);
         }
 
         double ave = (double) sum / num.length;
@@ -41,9 +41,9 @@ public class Activity7_Albios {
         }
 
         System.out.println();
-        System.out.println("Sum = " + sum);
-        System.out.println("Average = " + ave);
-        System.out.println("Highest = " + highest);
-        System.out.println("Lowest = " + lowest);
+        System.out.println("Total Sum = " + sum);
+        System.out.println("Total Average = " + ave);
+        System.out.println("The Highest = " + highest);
+        System.out.println("The Lowest = " + lowest);
     }
 }
