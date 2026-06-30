@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package day11.discussion;
-
+import java.util.Scanner;
 /**
  *
  * @author ktagl
@@ -13,7 +13,7 @@ public class SingleDimensionalArray {
     public static void main(String[] args) {
 //        // syntax for single dimensional arraya
 //
-//        int[] ages = {24, 43, 35, 18, 20, 25};
+  int[] ages = {24, 43, 35, 18, 20, 25};
 //         
 //        
 //        System.out.println(ages[2]);
@@ -38,5 +38,25 @@ public class SingleDimensionalArray {
 //          System.out.println(name);
 //      }
 
+
+//Array declaration with specified size only 
+
+//Scanner input = new Scanner(System.in);
+//String [] anime = new String[5];
+//
+//for (int i = 0; i < anime.length; i++){
+//    System.out.print("Enter anime title: ");
+//    anime[i] = input.nextLine();
+//}
+//
+//        System.out.println("\n Anime you entered: ");
+//        for (String title: anime){
+//            System.out.println(title);
+//        }
+//    }
+   
+
+        String[] names = {"MIcheal", "Les", "Kent", "Ray", "Jeff"};
+       System.out.println(names.length -1);
     }
 }
