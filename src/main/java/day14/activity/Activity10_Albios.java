@@ -15,17 +15,17 @@ public class Activity10_Albios {
 //      The Math.abs() method returns the absolute (positive) value of a number.
 
         double num1 = -25.5;
-        System.out.println(Math.abs(num1)); // Math.abs(number);
+        System.out.println("The absolute value is: " + Math.abs(num1)); // Math.abs(number);
 
 //        Math.max()
 //      The Math.max() method returns the larger of two values.
         int a = 10, b = 20;
-        System.out.println(Math.max(a, b)); // Math.max(value1, value2);
+        System.out.println("The largest value is: " + Math.max(a, b)); // Math.max(value1, value2);
 
 //        Math.min()
 //      The Math.min() method returns the smaller of two values.
         int c = 15, d = 8;
-        System.out.println(Math.min(c, d)); // Math.min(value1, value2);
+        System.out.println("The smallest value is: " + Math.min(c, d)); // Math.min(value1, value2);
 
 //        Math.pow()
 //      The Math.pow() method raises a number to a power.
