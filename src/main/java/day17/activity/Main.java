@@ -16,9 +16,15 @@ public class Main {
         clock.color = "Black";
         clock.weight = 28.5;
 
+        System.out.println("The Brand is: " + clock.brand);
+        System.out.println("The Color is: " + clock.color);
+        System.out.println("The Weight is: " + clock.weight);
+        
+        
         clock.Time();
         clock.Weather();
         clock.Timer();
         clock.Date();
     }
 }
+
