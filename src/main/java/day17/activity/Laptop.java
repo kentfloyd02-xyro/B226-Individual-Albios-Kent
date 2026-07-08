@@ -5,13 +5,6 @@
  */
 package day17.activity;
 
-/**
- *
- * @author Yuno
- */
-public class Main {
+public class Laptop {
     
-    public static void main(String[] args) {
-        
-    }
 }

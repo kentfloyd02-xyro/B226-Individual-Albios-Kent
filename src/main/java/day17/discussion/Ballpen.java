@@ -1,11 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 package day17.discussion;
 
-//SRP -> SINGLE RESPONSIBILITY PRINCIPLE
-// will act as a blueprint of an object that you want to implement
+
+// SRP -> Single Responsibity Principle
+// Will act as a blueprint of an object that you want to implement
 public class Ballpen {
     
     // attributes / fields
@@ -14,16 +16,19 @@ public class Ballpen {
     float pointSize;
     double weightInGrams;
     
-    //purpose / method 
-    public void write(){
-        System.out.println("Writing...");
+// purpose / method
+public void write() {
+    System.out.println("Writing....");
+}
+
+public void draw() {
+    System.out.println("Drawing......");
+}
+
+public void sketch() {
+    System.out.println("Sketching...");
     }
     
-    public void draw(){
-        System.out.println("Drawing....");
-    }
     
-    public void sketch(){
-        System.out.println("Sketching....");
-    }
+    
 }
