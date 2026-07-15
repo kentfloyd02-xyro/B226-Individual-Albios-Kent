@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package day23.discussion.overriding;
+package day24.discussion.abstractclass;
 
-
-public class Person {
-      
-    public void role(){}
+/**
+ *
+ * @author Yuno
+ */
+public class Main {
     
-    final void walk(){
-        System.out.println("Moon walk...");
-    }
 }

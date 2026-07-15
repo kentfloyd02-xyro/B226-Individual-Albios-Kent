@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package day23.discussion.paymentmethod;
+package day24.discussion.abstractclass;
 
 
-public class GCashPayment extends Payment{
-    
+public class Husband extends Person{
+
     @Override
-    public void pay(double amount) {
-        System.out.println("Paid P" + amount + " using Gcash Payment");
+    public void role() {
+        System.out.println("I am a Husband. I give my "
+                + "wife all of my attention.");
     }
     
     

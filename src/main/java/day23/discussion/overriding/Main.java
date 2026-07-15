@@ -19,8 +19,7 @@ public class Main {
 //        
 //        person.walk();
         
-        Father father = new Father();
-        father.printName();
+        
         
     }
 }

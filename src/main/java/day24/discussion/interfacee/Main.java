@@ -3,14 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package day23.discussion.overriding;
+package day24.discussion.interfacee;
 
 
-public class Person {
-      
-    public void role(){}
+public class Main {
     
-    final void walk(){
-        System.out.println("Moon walk...");
+    public static void main(String[] args) {
+        Person person = new Father();
+        person.role();
+        
+        
+        
     }
 }
