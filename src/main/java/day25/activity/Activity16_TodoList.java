@@ -33,7 +33,7 @@ public class Activity16_TodoList {
 
         while (true) {
             System.out.println("=====CHOOSE IN THIS CHOICES1====");
-            System.out.println("    [1] ^Add a task");
+            System.out.println("    [1] Add a task");
             System.out.println("    [2] View all tasks");
             System.out.println("    [3] Update a task");
             System.out.println("    [4] Remove a task");
